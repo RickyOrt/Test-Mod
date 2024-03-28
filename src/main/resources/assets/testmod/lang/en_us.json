@@ -3,13 +3,24 @@
   "item.testmod.cobalt_nugget": "Cobalt Nugget",
   "item.testmod.raw_cobalt": "Raw Cobalt",
   "item.testmod.blossom_nugget": "Blossom Nugget",
+  "item.testmod.dowsing_rod": "Dowsing Rod",
+  "item.testmod.coal_sliver": "Coal Sliver",
+  "item.testmod.ruby_sliver": "Ruby Sliver",
+  "item.testmod.turnip": "Turnip",
 
   "block.testmod.cobalt_block": "Cobalt Block",
   "block.testmod.deepslate_cobalt_ore": "Deepslate Cobalt",
   "block.testmod.raw_cobalt_block": "Raw Cobalt Block",
   "block.testmod.blossom_block": "Blossom Block",
   "block.testmod.cobalt_ore": "Cobalt Ore",
+  "block.testmod.speedy_block": "Speedy Block",
 
-  "itemGroup.testmodtab": "Image Mod"
+  "itemGroup.testmodtab": "Image Mod",
+
+  "item.testmod.dowsing_rod.no_valuables": "No valuables found!",
+
+  "tooltip.testmod.dowsing_rod.tooltip.shift": "Right Click to find Valuables!",
+  "tooltip.testmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
+  "tooltip.block.speedy_block": "Fast as fuk boiiii!"
 
 }

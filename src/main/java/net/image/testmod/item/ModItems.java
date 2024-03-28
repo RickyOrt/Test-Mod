@@ -1,6 +1,9 @@
 package net.image.testmod.item;
 
 import net.image.testmod.TestMod;
+import net.image.testmod.item.custom.CoalSliverItem;
+import net.image.testmod.item.custom.DowsingRodItem;
+import net.image.testmod.item.custom.RubySliverItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +26,18 @@ public class ModItems {
 
     public static final RegistryObject<Item> BLOSSOM_NUGGET = ITEMS.register("blossom_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).durability(16)));
+
+    public static final RegistryObject<Item> COAL_SLIVER = ITEMS.register("coal_sliver",
+            () -> new CoalSliverItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB)));
+
+    public static final RegistryObject<Item> RUBY_SLIVER = ITEMS.register("ruby_sliver",
+            () -> new RubySliverItem(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB)));
+
+    public static final RegistryObject<Item> TURNIP = ITEMS.register("turnip",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.COURSE_TAB).food(ModFoods.TURNIP)));
 
 
 
